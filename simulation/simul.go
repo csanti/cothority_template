@@ -2,8 +2,8 @@ package main
 
 import (
 	// Service needs to be imported here to be instantiated.
-	_ "github.com/dedis/cothority_template/service"
-	"go.dedis.ch/onet/v3/simul"
+	_ "github.com/csanti/cothority_template/service"
+	"github.com/csanti/onet/simul"
 )
 
 func main() {

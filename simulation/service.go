@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority_template"
-	"go.dedis.ch/onet/v3"
-	"go.dedis.ch/onet/v3/log"
-	"go.dedis.ch/onet/v3/simul/monitor"
+	"github.com/csanti/cothority_template"
+	"github.com/csanti/onet"
+	"github.com/csanti/onet/log"
+	"github.com/csanti/onet/simul/monitor"
 )
 
 /*

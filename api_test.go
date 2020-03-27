@@ -6,11 +6,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	// We need to include the service so it is started.
-	"github.com/dedis/cothority_template"
-	_ "github.com/dedis/cothority_template/service"
+	"github.com/csanti/cothority_template"
+	_ "github.com/csanti/cothority_template/service"
 	"go.dedis.ch/kyber/v3/suites"
-	"go.dedis.ch/onet/v3"
-	"go.dedis.ch/onet/v3/log"
+	"github.com/csanti/onet"
+	"github.com/csanti/onet/log"
 )
 
 var tSuite = suites.MustFind("Ed25519")

@@ -11,8 +11,8 @@ node will only use the `Handle`-methods, and not call `Start` again.
 */
 
 import (
-	"go.dedis.ch/onet/v3"
-	"go.dedis.ch/onet/v3/log"
+	"github.com/csanti/onet"
+	"github.com/csanti/onet/log"
 )
 
 func init() {

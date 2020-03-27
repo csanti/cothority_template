@@ -5,7 +5,7 @@ import (
 
 	"os"
 
-	"go.dedis.ch/onet/v3/log"
+	"github.com/csanti/onet/log"
 )
 
 func TestMain(m *testing.M) {

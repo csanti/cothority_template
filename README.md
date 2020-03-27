@@ -60,7 +60,7 @@ The Go tests should be written for protocols, services and apps alike, while the
 
 ## Setting up your own repository
 
-Just for testing you can `go get github.com/dedis/cothority_template`. For setting
+Just for testing you can `go get github.com/csanti/cothority_template`. For setting
 up a new protocol/service/simulation, we propose that you create a new personal
 repository in your account and then copy over the necessary files. Then you
 will need to replace all the `github.com/dedis/cothority_tempate` references
@@ -73,7 +73,7 @@ The Perl pie to the rescue (or `sed -i` if you prefer...):
 
 ```bash
 find . -name "*go" | xargs \
-perl -pi -e "s:github.com/dedis/cothority_template:github.com/foo/super_protocol:"
+perl -pi -e "s:github.com/csanti/cothority_template:github.com/foo/super_protocol:"
 ```
 
 **Note:** Everywhere you see the word "template" in the code, you should imagine

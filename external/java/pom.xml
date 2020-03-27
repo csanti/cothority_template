@@ -9,7 +9,7 @@
     <version>master-SNAPSHOT</version>
     <name>Cothority Template in Java</name>
     <description>Template examples of how to interact with the cothority</description>
-    <url>https://github.com/dedis/cothority_template</url>
+    <url>https://github.com/csanti/cothority_template</url>
     <licenses>
         <license>
             <name>GNU Affero General Public License version 3</name>
@@ -25,9 +25,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/dedis/cothority_template.git</connection>
+        <connection>scm:git:git://github.com/csanti/cothority_template.git</connection>
         <developerConnection>scm:git:ssh://github.com:dedis/cothority_template.git</developerConnection>
-        <url>http://github.com/dedis/cothority_template/tree/master</url>
+        <url>http://github.com/csanti/cothority_template/tree/master</url>
     </scm>
     <build>
         <plugins>

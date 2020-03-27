@@ -8,7 +8,7 @@ Note: you should have go installed before, see https://golang.org/doc/install.
 Clone this repo:
 
 ```bash
-git clone https://github.com/dedis/cothority_template.git
+git clone https://github.com/csanti/cothority_template.git
 ```
 
 Create a local distributed network of nodes:

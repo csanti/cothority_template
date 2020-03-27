@@ -11,11 +11,11 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/dedis/cothority_template"
-	"github.com/dedis/cothority_template/protocol"
-	"go.dedis.ch/onet/v3"
-	"go.dedis.ch/onet/v3/log"
-	"go.dedis.ch/onet/v3/network"
+	"github.com/csanti/cothority_template"
+	"github.com/csanti/cothority_template/protocol"
+	"github.com/csanti/onet"
+	"github.com/csanti/onet/log"
+	"github.com/csanti/onet/network"
 )
 
 // Used for tests

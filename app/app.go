@@ -8,11 +8,11 @@ import (
 	"errors"
 	"os"
 
-	template "github.com/dedis/cothority_template"
+	template "github.com/csanti/cothority_template"
 
-	"go.dedis.ch/onet/v3/app"
+	"github.com/csanti/onet/app"
 
-	"go.dedis.ch/onet/v3/log"
+	"github.com/csanti/onet/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -10,9 +10,9 @@ This part of the service runs on the client or the app.
 
 import (
 	"go.dedis.ch/cothority/v3"
-	"go.dedis.ch/onet/v3"
-	"go.dedis.ch/onet/v3/log"
-	"go.dedis.ch/onet/v3/network"
+	"github.com/csanti/onet"
+	"github.com/csanti/onet/log"
+	"github.com/csanti/onet/network"
 )
 
 // ServiceName is used for registration on the onet.
